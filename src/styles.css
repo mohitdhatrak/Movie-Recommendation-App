@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  padding: 3rem;
+  background-color: #d97706;
+  color: white;
+  margin-top: 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.intro-line {
+  display: block;
+  margin: 3rem auto;
+  margin-bottom: 0;
+  max-width: 80%;
+}
+
+.buttons {
+  width: 6rem;
+  max-width: 20%;
+  padding: 0.5rem;
+  margin: 3rem 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #d97706;
+  color: white;
+}
+
+.list-container {
+  border: 1px solid #d97706;
+  text-align: left;
+  width: 40rem;
+  margin: 2rem auto;
+  max-width: 80%;
+  list-style-type: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.one-movie-block {
+  margin: 1rem;
+}
+
+.movie-title {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer-container {
+  background-color: #d97706;
+  color: white;
+  border-radius: 1rem 1rem 0 0;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.small-image-size {
+  width: 2rem;
+  margin: 1rem 1rem;
+}
