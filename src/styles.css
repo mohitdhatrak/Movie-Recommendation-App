@@ -72,3 +72,7 @@ body {
   width: 2rem;
   margin: 1rem 1rem;
 }
+
+.selected {
+  font-weight: 600;
+}

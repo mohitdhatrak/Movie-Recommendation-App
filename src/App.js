@@ -65,9 +65,11 @@ export default function App() {
     ]
   };
 
+  var [selectedButton, setSelectedButton] = useState("Action");
   var [list, setList] = useState(movies.Action);
 
   function clickListner(movie) {
+    setSelectedButton(movie);
     var selectedList = movies[movie];
     setList(selectedList);
     console.log(selectedList);
@@ -84,9 +86,13 @@ export default function App() {
       <div>
         {genresArray.map(function buttonMaker(movie) {
           return (
-            <button className="buttons" onClick={() => clickListner(movie)}>
-              {" "}
-              {movie}{" "}
+            <button
+              className={
+                selectedButton === movie ? "buttons selected" : "buttons"
+              }
+              onClick={() => clickListner(movie)}
+            >
+              {movie}
             </button>
           );
         })}
