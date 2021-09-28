@@ -72,7 +72,6 @@ export default function App() {
     setSelectedButton(movie);
     var selectedList = movies[movie];
     setList(selectedList);
-    console.log(selectedList);
   }
 
   var genresArray = Object.keys(movies);
