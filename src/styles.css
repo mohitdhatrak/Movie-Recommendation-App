@@ -22,7 +22,7 @@ body {
 .intro-line {
   display: block;
   margin: 3rem auto;
-  margin-bottom: 0;
+  width: 50rem;
   max-width: 80%;
 }
 
@@ -30,7 +30,7 @@ body {
   width: 6rem;
   max-width: 20%;
   padding: 0.5rem;
-  margin: 3rem 1rem;
+  margin: 0 1rem;
   margin-bottom: 2rem;
   cursor: pointer;
   font-size: 1rem;
@@ -58,6 +58,14 @@ body {
 .movie-title {
   margin: 1rem;
   font-size: 1.5rem;
+}
+
+.closing-line {
+  display: block;
+  margin: 3rem auto;
+  width: 40rem;
+  max-width: 80%;
+  text-align: start;
 }
 
 .footer-container {
