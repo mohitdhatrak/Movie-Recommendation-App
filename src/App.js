@@ -211,7 +211,7 @@ export default function App() {
       </div>
       <h3 className="closing-line">
         Note: The source of these movie ratings is IMDb, they are subject to
-        change (depending on voting by further IMDb users). These ratings are as
+        change (depending on further voting by IMDb users). These ratings are as
         of September, 2021.
       </h3>
       <footer class="footer-container">
